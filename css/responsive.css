@@ -1,0 +1,29 @@
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) and (min-width: 100px) {
+    aside {
+    	width: 200px;
+    	height: 200px;
+    	margin: auto;
+    	
+}
+    	header {
+    	float: center;
+	    }
+
+}
+/*  GO FULL WIDTH AT LESS THAN 700 PIXELS */
+
+@media screen and (max-width: 699px) and (min-width: 520px) {
+   aside{
+    width: 400px;
+    height: 130px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    
+     }
+    header {
+    	float: center;
+    }
+
+}
