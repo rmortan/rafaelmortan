@@ -1,9 +1,14 @@
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/****************************
 
-@media only screen and (max-width: 480px) and (min-width: 100px) {
+
+*****************************/
+
+@media only screen and (min-width: 460px) {
+    
     aside {
-    	width: 200px;
-    	height: 200px;
+    	width: 150px;
+    	height: 150px;
     	margin: auto;
     	
 }
@@ -13,11 +18,16 @@
 
 }
 /*  GO FULL WIDTH AT LESS THAN 700 PIXELS */
+/****************************
 
-@media screen and (max-width: 699px) and (min-width: 520px) {
+
+*****************************/
+
+@media screen and (min-width: 620px) {
+   
    aside{
-    width: 400px;
-    height: 130px;
+    width: 300px;
+    height: 65px;
     margin-top: 0px;
     margin-bottom: 10px;
     
@@ -27,3 +37,15 @@
     }
 
 }
+/****************************
+
+
+*****************************/
+/****************************
+
+
+*****************************/
+/****************************
+
+
+*****************************/

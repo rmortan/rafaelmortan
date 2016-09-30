@@ -1,0 +1,185 @@
+﻿ /**Using simple and common font-families and a nice solid simple color for the
+background**/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans'fantasy'impact');
+/****************************
+
+
+*****************************/
+
+body {
+  font-family:Impact,Helvettica,sans-serif,Florence, cursive,Brushstroke, fantasy,;
+  background-color:#59E6FF;
+}
+
+header {
+  width:80%;
+  background-color:#00b8e6;
+  color:white;
+  margin-right:auto;
+  margin-left:auto;
+  padding:10px;
+  overflow:hidden;
+  border-top-right-radius: 15%;
+  border-top-left-radius: 15%;
+  text-align: center;
+  
+}
+
+h1 {
+  font-family: impact;
+  font-size:1.7;
+  margin:-3px;
+  padding:0;
+  padding-top:5px;                                 /**im trying to find my nesting format for my css=====
+                                                     ====credit to @JabalTorres**/
+}
+
+h2 {
+  font-family: fantasy;
+  font-size:1.4;
+}
+
+h3 {
+  font-family: cursive;
+  font-size:1.3;
+}
+
+/****************************
+
+
+*****************************/
+
+
+nav li {
+  list-style-type:inline;
+  font-family: fantasy;
+  float:left;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+section {
+  width:80.229%;
+  background-color:white;
+  margin-right:auto;
+  margin-left:auto;
+  border-color:#80CBE8;
+  border-style:groove;
+  border-width:4px;
+  padding:5px;
+}
+
+p {
+  margin:10px;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: #0000ff;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ff6600;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+img {
+  float:right;
+  margin:10px 10px 10px 10px;
+  box-shadow: 5px 7px 3px 5px #80CBE8;
+}
+
+
+/****************************
+
+
+*****************************/
+
+aside {
+  width:80%;
+  height: 20%;
+  margin-right:auto;
+  margin-left:auto;
+  font-size:.9em;
+  background:#b3ecff;
+  padding:20px;
+  border:3px solid #ccffcc;
+  border-radius:75px;
+
+}
+
+
+
+footer {
+  font-family: cursive;
+  width: 82%;
+  background-color:#00b8e6;
+  color:white;
+  margin-right:auto;
+  margin-left:auto;
+  border-radius: 40px;
+  text-align: center;
+  
+}
+
+
+
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #003380;
+}
+
+/* Float the list items side by side */
+
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #4da0ff;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 1.5s;
+    font-size: 20px;
+}
+
+/****************************
+
+
+*****************************/
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #ccff66;}
+
+ul.topnav li a:active {background-color: #ffffcc;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+
+#img {
+  border-radius: 65px;
+  opacity: 0.8;
+  border-style: ridge;
+}
+
+
+
+
+
+
+
