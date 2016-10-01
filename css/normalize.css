@@ -7,7 +7,7 @@ background**/
 *****************************/
 
 body {
-  font-family:Impact,Helvettica,sans-serif,Florence, cursive,Brushstroke, fantasy,;
+  font-family: Impact, sans-serif, cursive, ;
   background-color:#59E6FF;
 }
 
@@ -36,7 +36,7 @@ h1 {
 
 h2 {
   font-family: fantasy;
-  font-size:1.4;
+  font-size:1.4em;
 }
 
 h3 {
@@ -70,7 +70,7 @@ section {
 }
 
 p {
-  margin:10px;
+  margin: 10px 17px 7px 15px;
 }
 
 /* unvisited link */
@@ -96,7 +96,7 @@ a:active {
 img {
   float:right;
   margin:10px 10px 10px 10px;
-  box-shadow: 6px 5px 2px -5px #91A8D0;
+  box-shadow: 6px 5px 2px 3px #3a4e5f;
 }
 
 
