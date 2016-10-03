@@ -57,13 +57,13 @@ footer {
 	font-size: 0.70em;
 	text-align: center;
 	clear: both;
-	padding-top: 50px;
-	color: #0957CC;
+	padding-top: 1px;
+	color: rgb(9, 10, 10);
 }
 
 .social-icon {
 	width: 20px;
-	height: 20px
+	height: 20px;
 	margin: 0 5px;
 }
 
@@ -135,7 +135,7 @@ COLORS
 
 
 header {
- 	background: #086A7F ;
+ 	background: rgba(115, 186, 218, 0.71);
  	border-color: #3A737F;
  }
 

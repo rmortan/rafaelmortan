@@ -12,9 +12,6 @@
     	margin: auto;
     	
 }
-    	header {
-    	float: center;
-	    }
 
 }
 /*  GO FULL WIDTH AT LESS THAN 700 PIXELS */
@@ -32,9 +29,6 @@
     margin-bottom: 10px;
     
      }
-    header {
-    	float: center;
-    }
 
 }
 /****************************
