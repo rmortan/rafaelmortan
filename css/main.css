@@ -67,34 +67,6 @@ footer {
 	margin: 0 5px;
 }
 
-/*************************
-  PAGE Portfolio
-**************************/
-
-.coment-container {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-#gallery li {
-	float: left;
-	width: 45%;
-	margin: 2.5%;
-	background-color: #5f5f5f ;
-	color: #bdc3c7;
-}
-
-#gallery li a p {
-	margin: 0;
-	padding: 5%;
-	font-size: 0.75em;
-	color: #bdc3c7;
-
-}
-/*************************
-PAGE: CONTACT
-**************************/
 
 .contact-info {
 	list-style: none;
@@ -138,9 +110,9 @@ header {
  	background: rgba(115, 186, 218, 0.71);
  	border-color: #3A737F;
  }
-
- nav {
- 	background: #3A737F;
+ 
+  nav {
+ 	background: #0C5AE8;
  }
 
  /**/
