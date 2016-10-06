@@ -1,37 +1,28 @@
+
 /*************************
       GENERAL
 **************************/
 
 body {
-	font-family: 'David Libre';
+  font-family: 'MyWebFont', Fallback, sans-serif;
 }
-
 #wrapper {
 	max-width: 980px;
 	margin: 0 auto;
 	padding: 0 5%;
 }
-
 a {
 	text-decoration: none;
 }
-
 img {
 	max-width: 100%;
 }
-
 h3 {
 	margin: 0 0 1em 0;
 }
-
-
-
 /*************************
       HEADING
 **************************/
-
-
-}
 
 h1 {
   font-family: 'Slabo 27px', cursive;
@@ -39,15 +30,12 @@ h1 {
   font-weight: bold;
   line-height: 1.8em;
 }
-
 h2 {
 	font-family: 'Slabo 27px', serif;
 	font-size: 1.40em;
 	margin: -5px 0 0;
 	font-weight: normal;
 }
-
-
 /*************************
        FOOTER
 **************************/
@@ -60,21 +48,17 @@ footer {
 	padding-top: 1px;
 	color: rgb(9, 10, 10);
 }
-
 .social-icon {
 	width: 20px;
 	height: 20px;
 	margin: 0 5px;
 }
-
-
 .contact-info {
 	list-style: none;
 	padding: 0;
 	margin: 0;
 	font-size: 0.9em;
 }
-
 a.contact-info {
 	display: block;
 	min-height: 20px;
@@ -82,19 +66,15 @@ a.contact-info {
 	background-size: 20px 20px;
 	padding: 0 0 0 30px;
 }
-
 .contact-info li.phone a {
 	background-image: url('../img/phone.png');
 }
-
 .contact-info li.mail a {
 	background-image: url('../img/mail.png');
 }
-
 .contact-info li.twitter a {
 	background-image: url('../img/twitter.png');
 }
-
 /*************************
 COLORS
 **************************/
@@ -104,29 +84,17 @@ COLORS
 	margin: 0 auto 30px;
 	border-radius: 100%;
 }
-
-
 header {
  	background: rgba(115, 186, 218, 0.71);
  	border-color: #3A737F;
- }
+}
  
   nav {
  	background: #0C5AE8;
- }
-
- /**/
-
- h1, h2 {
- 	color: #1a0000;
- }
-
-/**/
-
- nav a {
-  color: #fff;
 }
-
+h1, h2 {
+ 	color: #1a0000;
+}
 nav a:hover {
   color:  #ffff99;
 }
