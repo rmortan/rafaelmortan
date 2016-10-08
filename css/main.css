@@ -5,6 +5,7 @@
 
 body {
   font-family: 'MyWebFont', Fallback, sans-serif;
+  line-height: 1.5;
 }
 #wrapper {
 	max-width: 980px;
