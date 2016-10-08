@@ -7,13 +7,13 @@ background**/
 HEADER
 *****************************/
 
-body {
-  background-color:#59E6FF;
 }
 
 header {
   width:80%;
-  background-color:#00b8e6;
+  background: linear-gradient(#ffa949, transparent 90%),
+              linear-gradient(0deg, #fff, transparent),
+              #ffa949 url('../img/.jpg') no-repeat center;
   margin-right:auto;
   margin-left:auto;
   padding:10px;
@@ -61,13 +61,7 @@ p {
 *****************************/
 
 
-nav li {
-  list-style: none;
-  font-family: fantasy;
-  float:left;
-  margin-right: 5px;
-  margin-left: 10px;
-}
+
 
 section {
   width:80.229%;
@@ -85,9 +79,7 @@ p {
 }
 
 /* unvisited link */
-a:link {
-    color: #F94A1A;
-}
+
 
 /* visited link */
 a:visited {
