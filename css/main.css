@@ -3,11 +3,6 @@
       GENERAL
 **************************/
 
-body {
-  font-family: 'MyWebFont', Slabo , sans-serif;
-  line-height: 1.5;
-  background-color: #99bbff;
-}
 #wrapper {
 	max-width: 980px;
 	margin: 0 auto;
@@ -15,33 +10,50 @@ body {
 }
 ul,
 ol {
-  margin: 30px 0;
+    margin: 3px 5px;
 }
 
 li {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
-a {
-	text-decoration: none;
+
 }
 a:link {
     color: #000d33;
 }
+/* visited link */
+a:visited {
+    color: #FF3D0B;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FFFB0B;
+}
+
+/* selected link */
+a:active {
+    color: #7F1865;
+}
+
 img {
 	max-width: 100%;
+    float:right;
+    margin:10px 10px 10px 10px;
+    box-shadow: 6px 5px 2px 3px #3a4e5f;
 }
+#img {
+  border-radius: 65px;
+  opacity: 0.8;
+  border-style: ridge;
+}
+
 h3 {
 	margin: 0 0 1em 0;
 }
 /*************************
       HEADING
 **************************/
-
-h1 {
-  font-family: 'Slabo 27px', cursive;
-  font-size: 1.90em;
-  font-weight: bold;
-  line-height: 1.8em;
 }
 h2 {
 	font-family: 'Slabo 27px', serif;
@@ -66,7 +78,7 @@ footer {
   text-align: center;
   padding: 1% 24% 5px 5px;
   border-top: 10px solid #0000ff;
-  margin: 105px 0 60px;
+  margin: 0px 0 60px;
   background: #809fff url('../img/') no-repeat center;
   background-size: cover;
   box-shadow: inset 0 0 50px 10px rgba(0,0,0, .8);
@@ -108,16 +120,47 @@ COLORS
 	margin: 0 auto 30px;
 	border-radius: 100%;
 }
+.main-header {
+    max-height: 190px ;
+    
+  }
 header {
- 	background: rgba(115, 186, 218, 0.71);
- 	border-color: #3A737F;
+ 	background: rgba(102, 163, 255, 0.98) 	
 }
- 
-  nav {
- 	background: #0C5AE8;
+header h1 {
+  font-family: David-Libre;
+  color: #0C0061;
 }
-h1, h2 {
- 	color: #1a0000;
+nav {
+ 	background: rgba(0, 82, 204, 0.98)
+
+}
+h1 {
+  font-size: 35px;
+  margin: 4px;
+  padding: 0px 0px 0px 0px;
+  font-weight: bold;
+  line-height: 1.8em;             /**im trying to find my nesting format for my css=====
+                                                    ====credit to @JabalTorres**/
+}
+
+
+h2 {
+  font-family: fantasy;
+  font-size:1.4em;
+}
+
+h3 {
+  font-family: Yatra One;
+  font-size:1.3em;
+}
+h4 {
+  font-family: impact;
+  font-size: 1.2em;
+}
+p {
+  font-weight: 800;
+
 }
 nav a:hover {
   color:  #ffff99;

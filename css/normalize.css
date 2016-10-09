@@ -23,19 +23,8 @@ header {
   text-align: center;
   
 }
-header h1 {
-  font-family: David-Libre;
-  color: #0C0061;
- }
 
-h1 {
-  font-family: impact;
-  font-size: 35px;
-  margin: 4px;
-  padding:0;
-  padding-top:5px;                                 /**im trying to find my nesting format for my css=====
-                                                     ====credit to @JabalTorres**/
-}
+
 
 
 h2 {
@@ -95,14 +84,6 @@ a:hover {
 a:active {
     color: #7F1865;
 }
-
-img {
-  float:right;
-  margin:10px 10px 10px 10px;
-  box-shadow: 6px 5px 2px 3px #3a4e5f;
-}
-
-
 /****************************
 
 
@@ -111,9 +92,8 @@ img {
 aside {
   width:80%;
   height: 20%;
-  margin-right:auto;
-  margin-left:auto;
-  font-size:.9em;
+  margin: 0px 0px 0px 0px;
+  font-size:.6em;
   background:#b3ecff;
   padding:20px;
   border:3px solid #ccffcc;
@@ -175,11 +155,6 @@ ul.topnav li a:active {background-color: #ffffcc;}
 ul.topnav li.icon {display: none;}
 
 
-#img {
-  border-radius: 65px;
-  opacity: 0.8;
-  border-style: ridge;
-}
 
 
 /****************************
