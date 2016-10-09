@@ -23,15 +23,6 @@ header {
   text-align: center;
   
 }
-
-
-
-
-h2 {
-  font-family: fantasy;
-  font-size:1.4em;
-}
-
 h3 {
   font-family: Yatra One;
   font-size:1.3em;
@@ -39,9 +30,6 @@ h3 {
 h4 {
   font-family: impact;
   font-size: 1.2em;
-}
-p {
-  font-weight: 800;
 }
 
 /****************************
@@ -65,24 +53,6 @@ section {
 
 p {
   margin: 10px 17px 7px 15px;
-}
-
-/* unvisited link */
-
-
-/* visited link */
-a:visited {
-    color: #FF3D0B;
-}
-
-/* mouse over link */
-a:hover {
-    color: #FFFB0B;
-}
-
-/* selected link */
-a:active {
-    color: #7F1865;
 }
 /****************************
 
