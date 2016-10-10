@@ -108,6 +108,15 @@ a:hover {
     opacity: 0.8;
     border-style: ridge;
 }
+#imgc {
+    max-width: 100%;
+    
+    margin: 0px -5px 10px 10px;
+    box-shadow: 6px 5px 2px 3px #3a4e5f;
+    border-radius: 65px;
+    opacity: 0.8;
+    border-style: ridge;
+}
 img {
 
 }
@@ -127,18 +136,6 @@ h2 {
 	font-size: 1.40em;
 	margin: -5px 0 0;
 	font-weight: normal;
-}
-/*************************
-       FOOTER
-**************************/
-/* Layout Styles ------------------ */
-
-footer {
-	font-size: 0.70em;
-	text-align: center;
-	clear: both;
-	padding-top: 1px;
-	color: rgb(9, 10, 10);
 }
 /****************************
 
@@ -169,7 +166,43 @@ footer {
   border-radius: 10px;
 }
 
+.contactstyle {
 
+  text-align: left;
+  text-decoration: none;
+  padding: 1px 2px 5px 5px;
+  border-top: 2px solid #330000;
+  margin: 0px 0px 0px 0px;
+  background: #80609f url('../img/') no-repeat center;
+  background-size: cover;
+  box-shadow: inset 0 0 50px 10px  rgba(115, 140, 140, 0.89);
+  border-radius: 10px;
+
+}
+.bodcystyle {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  padding: 1px 2px 5px 5px;
+  border-top: 10px solid #004d66;
+  margin: 0px 0px 0px;
+  background: #00bfff url('../img/') no-repeat center;
+  background-size: cover;
+  box-shadow: inset 0 0 50px 10px rgba(0,0,0, .8);
+  border-radius: 10px;
+}
+.headcstyle {
+
+  text-align: center;
+  text-decoration: none;
+  padding: 1px 2px 5px 5px;
+  border-top: 2px solid #330000;
+  margin: 0px 0px 0px 0px;
+  background: #13ecec url('../img/') no-repeat center;
+  background-size: cover;
+  box-shadow: inset 0 0 50px 10px  rgba(115, 140, 140, 0.89);
+  border-radius: 10px;
+}
 .social-icon {
 	width: 20px;
 	height: 20px;
@@ -201,17 +234,22 @@ a.contact-info {
 COLORS
 **************************/
 
-.main-header {
-    max-height: 190px ;
-    
-  }
-
-
-
 /****************************
-
-
+BOTTOM
 *****************************/
+footer {
+  font-family: cursive;
+  width: 82%;
+  background-color: rgba(103, 159, 185, 0.85);
+  color: black;
+  margin: 0px auto 0px auto;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 0.90em;
+  clear: both;
+  padding-top: 1px;
+  
+}
 
 aside {
   width:80%;
@@ -236,7 +274,29 @@ aside p {
     padding: 0px 0px 0px 0px;
 }
 
-
+.button {
+  border-style: solid;
+  border-width: 0px;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 0 0 1.25rem;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  display: inline-block;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 2rem;
+  font-size: 1rem;
+  background-color: #0c1335;
+  border-color: #0a0f2a;
+  color: #FFFFFF;
+  transition: background-color 300ms ease-out;
+}
 }
 
 

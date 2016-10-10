@@ -56,24 +56,6 @@ section {
 
 *****************************/
 
-
-
-
-footer {
-  font-family: cursive;
-  width: 82%;
-  background-color: rgba(103, 159, 185, 0.85);
-  color:white;
-  margin-right:auto;
-  margin-left:auto;
-  border-radius: 40px;
-  text-align: center;
-  
-}
-
-
-
-
 ul.topnav {
     list-style-type: none;
     margin: 0;
