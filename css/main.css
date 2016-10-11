@@ -16,7 +16,7 @@ HEAD & BODY
 body {
   color: #000;
   background-color: #dcdcdc;
-  font: 13px Arial, sans-serif;
+  font: 13px 'Winterthur Condensed Oblique webfont' 'Sansation-BoldItalic-webfont' 'VeraSerif-Bold-webfont';
 }
 .bodystyle {
   color: black;
@@ -54,7 +54,7 @@ h1 {
                                                     ====credit to @JabalTorres**/
 }
 header h1 {
-  font-family: Sansation-BoldItalic;
+  font-family: 'Sansation-BoldItalic';
   color: #0C0061;
 }
 ul,
@@ -82,20 +82,23 @@ a {
 FONT
 *****************************/
 h2 {
-  font-family: Yatra One;
-  font-size:1.4em;
+  font-family: 'Winterthur Condensed Oblique webfont';
+  font-size:1.5em;
 }
 h3 {
-  font-family: Yatra One;
-  font-size:1.3em;
+  font-family: 'Winterthur Condensed Oblique webfont';
+  font-size:1.4em;
 }
 h4 {
-  font-family: impact;
-  font-size: 1.2em;
+  font-family: impact'Winterthur Condensed Oblique webfont';
+  font-size: 1.3em;
 }
 p {
+  font-size: 18px;
+  font-family: 'bitstream vera serifbold';
   font-weight: 800;
-  margin: 10px 17px 7px 15px;
+  margin: 10px 17px 17px 15px;
+  line-height: 1.4;
 }
 a:hover {
   color:  #ffff99;
@@ -134,7 +137,7 @@ nav a {
     max-width: 100%;
     
     margin: 0px -5px 10px 10px;
-    box-shadow: 6px 5px 2px 3px #3a4e5f;
+    box-shadow: 6px 5px 2px 5px #3a4e5f;
     border-radius: 65px;
     opacity: 0.8;
     border-style: ridge;
