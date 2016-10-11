@@ -1,7 +1,23 @@
+@font-face {
+    font-family: 'winterthurcondenseditalic' 'bitstream_vera_serifbold' 'sansationbold_italic';
+    src: url('WinterthurCondensedOblique-webfont. 'Sansation-BoldItalic-webfont. 'VeraSerif-Bold-webfont.eot');
+    src: url('WinterthurCondensedOblique-webfont. 'Sansation-BoldItalic-webfont. 'VeraSerif-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('WinterthurCondensedOblique-webfont. 'Sansation-BoldItalic-webfont. 'VeraSerif-Bold-webfont.woff') format('woff'),
+         url('WinterthurCondensedOblique-webfont. 'Sansation-BoldItalic-webfont. 'VeraSerif-Bold-webfont.ttf') format('truetype'),
+         url('WinterthurCondensedOblique-webfont.svg#winterthurcondenseditalic' 'bitstream_vera_serifbold' 'sansationbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 /*************************
 HEAD & BODY 
 **************************/
+body {
+  color: #000;
+  background-color: #dcdcdc;
+  font: 13px Arial, sans-serif;
+}
 .bodystyle {
   color: black;
   text-align: center;
@@ -27,15 +43,18 @@ HEAD & BODY
   border-radius: 10px;
 }
 h1 {
-  font-size: 35px;
-  margin: 4px 0px 0px 0px;
+
+  font-size: 32px;
+  font-weight: normal;
+  font-style: normal;
+  margin: 4px 0px 18px 0px;
   padding: 0px 0px 0px 0px;
   font-weight: bold;
   line-height: 1.8em;             /**im trying to find my nesting format for my css=====
                                                     ====credit to @JabalTorres**/
 }
 header h1 {
-  font-family: David-Libre;
+  font-family: Sansation-BoldItalic;
   color: #0C0061;
 }
 ul,
@@ -81,6 +100,9 @@ p {
 a:hover {
   color:  #ffff99;
 }
+nav a {
+    color: #99ff33;
+}
 .wildstyle {
   color: black;
   text-align: center;
@@ -105,7 +127,7 @@ a:hover {
     margin: 0px -5px 10px 10px;
     box-shadow: 6px 5px 2px 3px #3a4e5f;
     border-radius: 65px;
-    opacity: 0.8;
+    opacity: 0.93;
     border-style: ridge;
 }
 #imgc {
@@ -117,8 +139,10 @@ a:hover {
     opacity: 0.8;
     border-style: ridge;
 }
-img {
-
+.img {
+    border-radius: 96%;
+    border-width: 10px;
+    border-color:  #ffeb99;
 }
 /****************************
 
@@ -275,25 +299,22 @@ aside p {
 }
 
 .button {
-  border-style: solid;
   border-width: 0px;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-weight: normal;
-  line-height: 1.5;
-  margin: 0 0 1.25rem;
+  font-weight: 900;
+  line-height: .25;
+  margin: -12px 3px 0.25rem;
   position: relative;
   text-decoration: none;
   text-align: center;
-  -webkit-appearance: none;
-  -webkit-border-radius: 0;
   display: inline-block;
   padding-top: 1rem;
-  padding-right: 2rem;
+  padding-right: 1rem;
   padding-bottom: 1.0625rem;
-  padding-left: 2rem;
+  padding-left: 1rem;
   font-size: 1rem;
-  background-color: #0c1335;
-  border-color: #0a0f2a;
+  background-color: #00264d;
+  border-color: #00264d;
   color: #FFFFFF;
   transition: background-color 300ms ease-out;
 }
