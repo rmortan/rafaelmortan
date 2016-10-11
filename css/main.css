@@ -264,29 +264,28 @@ COLORS
 /****************************
 BOTTOM
 *****************************/
-footer {
-  font-family: cursive;
-  width: 82%;
-  background-color: rgba(103, 159, 185, 0.85);
-  color: black;
-  margin: 0px auto 0px auto;
-  border-radius: 20px;
+.footerstyle {
+  color: #ccffff;
   text-align: center;
-  font-size: 0.90em;
+  padding: 1px 2px 5px 5px;
+  border-top: 4px solid #002633;
+  margin: auto;
+  background: #007399 ;
+  background-size: cover;
+  box-shadow: inset 2px -4px 58px 24px rgba(20,30,40, .9);
+  border-radius: 16px;
+  width: 82%;  
   clear: both;
-  padding-top: 1px;
-  
 }
-
 aside {
   width:80%;
   height: 20%;
   margin: 0px 0px 0px 0px;
-  font-size:.6em;
-  background:#000033;
-  padding:20px;
-  border:3px solid #1a1aff;
-  border-radius:75px;
+  font-size: .6em;
+  background: #000033;
+  padding: 20px;
+  border: 3px solid #1a1aff;
+  border-radius: 75px;
 
 }
 aside h2  {
