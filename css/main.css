@@ -1,17 +1,10 @@
-@font-face {
-    
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 /*************************
 HEAD & BODY 
 **************************/
 body {
   color: #000;
   background-color: #dcdcdc;
-  font: 13px 'Winterthur Condensed Oblique webfont' 'Sansation-BoldItalic-webfont' 'VeraSerif-Bold-webfont';
+  font: 13px 'sans-serif';
 }
 .bodystyle {
   color: black;
@@ -39,7 +32,7 @@ body {
 }
 h1 {
 
-  font-size: 32px;
+  font-size: 35px;
   font-weight: normal;
   font-style: normal;
   margin: 4px 0px 18px 0px;
@@ -49,7 +42,7 @@ h1 {
                                                     ====credit to @JabalTorres**/
 }
 header h1 {
-  font-family: 'Sansation-BoldItalic';
+  font-family: 'sans-serif';
   color: black;
 }
 ul,
@@ -78,22 +71,22 @@ FONT
 *****************************/
 h2 {
   font-family: 'Winterthur Condensed Oblique webfont';
-  font-size:1.5em;
+  font-size:1.9em;
 }
 h3 {
   font-family: 'Winterthur Condensed Oblique webfont';
-  font-size:1.4em;
+  font-size:1.7em;
 }
 h4 {
   font-family: impact'Winterthur Condensed Oblique webfont';
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 p {
   font-size: 18px;
   font-family: 'bitstream vera serifbold';
   font-weight: 800;
   margin: 10px 17px 17px 15px;
-  line-height: 1.4;
+  line-height: 1.8;
 }
 a:hover {
   color:  #ffff99;
@@ -181,7 +174,7 @@ h2 {
   color: black;
   text-align: center;
   padding: 1px 2px 5px 5px;
-  border-top: 5px solid #330000;
+  border-top: 5px solid #CFCFCF;
   margin: 0px 0px 0px 0px;
   background: #fff url('../img/') no-repeat center;
   background-size: cover;
@@ -194,7 +187,7 @@ h2 {
   text-align: left;
   text-decoration: none;
   padding: 1px 2px 5px 5px;
-  border-top: 2px solid #330000;
+  border-top: 2px solid #CFCFCF;
   margin: 0px 0px 0px 0px;
   background: #fff url('../img/') no-repeat center;
   background-size: cover;
@@ -275,11 +268,11 @@ aside {
   width:80%;
   height: 20%;
   margin: 0px 0px 0px 0px;
-  font-size: .6em;
-  background: #000033;
+  font-size: 1.6em;
+  background: #e6e6e6;
   padding: 20px;
-  border: 3px solid #1a1aff;
-  border-radius: 75px;
+  border: 3px solid #b3b3b3;
+  border-radius: 25px;
 
 }
 aside h2  {
